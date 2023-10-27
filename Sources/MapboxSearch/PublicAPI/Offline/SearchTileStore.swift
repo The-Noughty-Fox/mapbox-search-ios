@@ -66,7 +66,7 @@ public class SearchTileStore {
         tileStore.setOptionForKey(MapboxCommon.TileStoreOptions.mapboxAPIURL,
                                   domain: MapboxCommon.TileDataDomain.search,
                                   value: defaultEndPoint)
-        tileStore.setOptionForKey(MapboxCommon.TileStoreOptions.mapboxAccessToken,
+        tileStore.setOptionForKey(MapboxCommon.MapboxOptions.accessToken,
                                   domain: MapboxCommon.TileDataDomain.search,
                                   value: accessToken)
     }
